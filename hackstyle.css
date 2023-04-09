@@ -1,0 +1,109 @@
+*{
+    padding: 5px;
+    margin: 1px;
+}
+
+.htwo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(112, 149, 179);
+}
+.head{
+    text-align: center;
+    background-color: rgb(236, 215, 19);
+    padding: 30px;
+}
+
+header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Select buttons of homepage */
+.hthree{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styling of Nav-bar*/
+nav{
+    display: flex;
+    background-color: black;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.flex-right{
+    margin-left: auto;
+}
+
+
+/* Styling links */
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;    
+}
+
+a:hover{
+    color: tomato;
+}
+
+/* Sign-in Form */
+.ione{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.ione h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+textarea{
+    width: 100%;
+    padding: 15px;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+fieldset{
+    width: 100%;
+    padding: 15px;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 15px;
+    border: 3px;
+    border-radius: 10px;
+    background-color: turquoise;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(9, 127, 173);
+}
+
+/* Styling Tables */
+table,
+td,
+tr{
+    border: 3px solid;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    padding: 20px;
+    margin: 30px;
+}
